@@ -47,14 +47,14 @@
   background-color: #f0fcfc;
 }
 
-li {
+.stats li {
   display: flex;
   flex-direction: column;
   border-top: 1px solid gray;
   padding: 20px 25px;
 }
 
-li:not(:last-child) {
+.stats li:not(:last-child) {
   border-right: 1px solid gray;
 }
 
